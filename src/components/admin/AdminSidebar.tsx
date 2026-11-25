@@ -7,7 +7,6 @@ import {
   LayoutDashboard,
   Package,
   PlusCircle,
-  Settings,
   LogOut,
   Zap,
   X,
@@ -19,7 +18,6 @@ const navItems = [
   { href: '/admin', label: 'Dashboard', icon: LayoutDashboard, exact: true },
   { href: '/admin/products', label: 'Products', icon: Package },
   { href: '/admin/products/new', label: 'Add Product', icon: PlusCircle },
-  { href: '/admin/settings', label: 'Settings', icon: Settings },
 ]
 
 interface AdminSidebarProps {

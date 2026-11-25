@@ -114,13 +114,6 @@ export default async function AdminDashboardPage() {
                 color: 'text-violet-400',
               },
               {
-                href: '/admin/settings',
-                icon: GitBranch,
-                label: 'Settings',
-                desc: 'View data source & configuration',
-                color: 'text-amber-400',
-              },
-              {
                 href: '/',
                 icon: ArrowRight,
                 label: 'View Public Site',
